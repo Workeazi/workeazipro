@@ -1,0 +1,42 @@
+/* navebar Start*/
+.logo {
+    height: 50px;
+}
+.navtext {
+    padding-top: 13px;
+    font-size: 20px;
+}
+.Contact_nav_button {
+    padding-top: 10px;
+}
+.nav_button_call_image {
+    height: 20px;
+
+}
+/* navebar Start*/ 
+
+/* Lastbase Start */
+.lostbase {
+    background-color: #dcdcdc;
+    height: auto;
+    width: 100%;
+    padding: 10px 8% 0% 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.lastitem {
+    margin: 20px;
+}
+.lastitem > p > a{
+    color: #494949;
+    text-decoration: none;
+    font-weight: 400;
+}
+.lastlogo   {
+    height: 40px;
+}
+/* Lastbase Start */
+span  {
+    color: #8d71fd;
+}

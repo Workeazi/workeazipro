@@ -1,0 +1,17 @@
+.aybss {
+    padding: 100px 20px 20px 20px;
+    background-color: aliceblue;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+.adbss_body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagepart_adbss {
+    max-width: 800px;
+}
+.addyuorbusness_text {
+    max-width: 600px;
+    padding-top: 60px;
+}

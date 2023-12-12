@@ -1,53 +1,180 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-.web_body{
-    padding: 0% 5% 0% 5%;
-    overflow: hidden;
-}
-.navimg {
-    height: 50px;
-}
-.logo {
-    height: 50px;
-}
-.importan {
-    color: #a794f2;
-}
-.botam_slid {
-    background-color: rgb(50, 50, 50);
-}
-.cantani_botam {
+/* media it work page Start */
+.firspart {
+    background-color: #f0f8ff;
     display: flex;
-    justify-content:space-around;
     flex-wrap: wrap;
-    margin-top: 20px;
+    justify-content: center;
+}
+.firstpart_item-1 {
+    width: 950px;
+    padding-top: 60px;
+}
+.firstpart_item_h1 {
+    text-align: start;
+    margin-top: 40px;
+    padding: 10px 10px 10px 100px;
+    font-family: 'Edu TAS Beginner', 'cursive';
+}
+.firstpart_item-1 > h4 {
+    text-align: start;
+    padding: 0px 10px 10px 100px;
+    max-width: 800px;
+}
+.firstpart_item-2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 750px;
+    width: 400px;
+    margin-top: 80px;
+    border: solid grey 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.firstpart_item-2 > a {
+    color: black;
+    text-decoration: none;
+}
+.homeimg {
+    width: 100%;
+}
+.poplot {
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+.pooooo {
+    height: 100px;
+}
+.poplot_1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.poplot_2 {
+    padding-top: 10px;
+    width: 260px;
+}
+/* media it work page Start */
+
+/* What we offer Start */
+.What_we_offer_h1 {
     text-align: center;
+}
+.What_we_offer {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.weoffer {
+    max-width: 400px;
+    margin: 10px;
+    border: solid gray 0.5px;
+}
+.weoffer_imgs {
+    max-width: 400px;
+}
+.weoffer > h3 {
+text-align: center;
+}
+.weoffer > p {
+    text-align: start;
+    margin-left: 10px;
+}
+
+/* What we offer End */
+
+/* Our servise Start */
+.ourservise {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 8% 10px 8%;
+}
+.ourservise >h1 {
+    color: aliceblue;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+.servisecontain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.serviseitem {
+    height: 110px;
+    width: 80px;
+    margin: 10px;
+}
+.serviseitem > img{
+    width: 80px;
+}
+.serviseitem > h6 {
+    font-size: 14px;
+    text-align: center;
+    color: #ffff;
+}
+/* Our servise End */
+
+/* Fitness Start */
+.fitness {
+    text-align: center;
+    font-family: 'PT Serif', serif;
 
 }
-.dropslide_font {
-    text-align: center;
-    color: rgb(65, 64, 64);
-    font-size: 14px;
-    font-family: 'PT Serif', serif;
+.fittcontain {
+    display: flex;
+    justify-content: center;
 }
-.item_botam {
-    color: #ffffff;
-    font-family: 'PT Serif', serif;
+.fittitem {
+    max-height: 380px;
+    max-width: 280px;
+    margin: 10px 20px 10px 20px ;
 }
-.small_cet {
-    font-size: 15px;
+.fittitem >img {
+    width: 100%;
 }
-.botam_tital {
-    color: #a794f2;
-    
+/* Fitness End */
+
+/*  Why choose us?  Start */
+.wcubody {
+    margin: 0% 8% 0% 8%;
 }
-.botam_image {
+.wcucontain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.wcuitem {
+    height: auto;
+    max-width:400px ;
+    background-color: aliceblue;
+    padding: 10px 20px 10px 25px;
+}
+.wcuitem > p > img  {
     height: 50px;
-    width: 50px;
+    width: auto;
+} 
+.wcuitem > p > b {
+    margin-left: 20px;
 }
-.clink {
-    color: #ffffff;
-    text-decoration: none;
+.buttecenter {
+    display: flex;
+    justify-content: center;
+
+}
+.call_button {
+    color: azure;
+    background-color: #8d71fd;
+    align-content: center;
+    width: 280px;
+    height: 50px;
+    font-size: large;
+}
+/*  Why choose us?  End */
+samp {
+    color: #8d71fd;
+    font-family: 'PT Serif', serif;
 }

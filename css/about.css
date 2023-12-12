@@ -1,42 +1,80 @@
-body {
+/* About hedline Start */
+.abouthedlin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.whatsappinagel > img {
+    width: 400px;
+    height: auto;
+    margin-top: 65px;
+}
+.wharsappohedline > h1 {
+    padding-top: 20%;
+    padding-left: 10px;
+}
+/* About hedline End */
+
+/* Why choose Start */
+.totalbody > h1 {
+    text-align: center;
+} 
+.totalbody > p {
     text-align: center;
 }
-.firstbody {
+.wcucontain   {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.firstcontain {
+.wcuitem {
+    height: auto;
+    max-width:400px ;
+    background-color: aliceblue;
+    padding: 10px 20px 10px 25px;
+    margin: 0px 1px 0px 1px;
+}
+.wcuitem > p > img  {
+    height: 50px;
+    width: auto;
+}
+/* Why choose End */
+
+/* Meet Team WorkEZ Start */
+.meerteam_body {
+    padding: 0px 8% 0px 8% ;
+}
+.meettwok {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between ;
-    width: 1100px;
+    justify-content: start;
+    border: solid 1.5px gainsboro;
 }
-.firstitem {
-    width: 520px;
+.metworkcontain > img {
+    width: 400px;
+    height: auto;
+}
+.metworktext {
+    padding:3% 0% 0% 20px;
+    max-width: 69%;
+}
+.namecolor {
+    color: #8d71fd;
+}
+.fonundercolamp {
+    max-width: 750px;
     font-size: 20px;
 }
-.heddingitem {
-    font-family: 'PT Serif', serif;
+.fonundercolamp > p{
+    font-size: 19px;
 }
-.bt {
-    margin-bottom: 10px;
+.fffp {
+    font-size: 17px;
 }
-.headwz {
-    width: 100%;
-}
-/* firstslide image */
-.foundercontainer {
+.buttonoop {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
 }
-@media only screen and (max-width:500px) {
-    .firstcontain {
-        width: 100%;
-        margin-left: 15px;
-    }
-    .firstitem {
-        width: 340px;
-        font-size: 20px;
-    }
-}
+ 
+/* Meet Team WorkEZi End */

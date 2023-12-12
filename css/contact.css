@@ -1,53 +1,42 @@
-h1 {
+.aybss {
     text-align: center;
+    padding:30px 10px 20px 10px;
+    background-color: aliceblue;
     font-family: 'PT Serif', serif;
 
 }
-.teamcontain {
+.Customer_Support {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.customer_support_item {
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 40px;
 }
-.teamitem {
-    height: 500px;
-    width: 400px;
-    padding-top: 20px;
-}
-.b2 {
-    margin: 0 10px 0 10px;
-    border: solid gainsboro 1.5px;
-}
-.teamitem h3 {
-    text-align: center;
-    font-family: 'PT Serif', serif;
-}
-.teamitem > img {
-    height: 150px;
+.Cname_img {
     width: 150px;
-    display: block;
-    margin: auto;
+}
+.Cname_img > img {
+    width: 150px;
     border-radius: 10px;
-
-}  
-.teamitem >h4  {
-    text-align: center;     
-} 
-.teamitem >a>h4  {
-    text-align: center; 
-    color: gray;
-    
-} 
-.whatsappblg  {
-    display: flex;
-    justify-content: center;
+    margin: 20px 0px 20px 0px;
 }
-.whatsappblg > img {
-    height: 30px;
-    width: 30px;
+.customer_support_item > div > h4, h3{
+    width: 400px;
+    text-align: center;
 }
-.whatsappblg > h4 {
-    color: gray;
-    margin-left: 10px;
-    
+.atagecustm {
+    color: #494949;
+    text-decoration: none; 
 }
-
+.img_tolrimg {
+    width: 24px;
+}
+.customer_support_byux {
+    border: solid gray 0.5px;
+}
